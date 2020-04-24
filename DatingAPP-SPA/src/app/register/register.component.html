@@ -6,6 +6,13 @@
     <input type="text" class="form-control" required name="username" [(ngModel)]="model.username" placeholder="Username">
   </div>
 
+  <!-- <div class="formGroup">
+    <label for="favorite value">Favori değerin hangisi?</label>
+    <select class="form-control" id="favoriteValue">
+      <option *ngFor="let value of valueFromHome" [value] = "value">{{value.name}}</option>
+    </select>
+  </div> -->
+
   <div class="form-group">
     <input type="password" class="form-control" required name="password" [(ngModel)]="model.password" placeholder="Password">
   </div>

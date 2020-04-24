@@ -22,6 +22,7 @@ namespace DatingApp.API.Controllers
         }
 
         // GET api/values
+        [AllowAnonymous]
         [HttpGet]
         public async Task<IActionResult> GetValues()//taskı asenkron için kullanıyoruz aynı anda birden fazla istek geldiğinde servis karşılasın diye
         {
